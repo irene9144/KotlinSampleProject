@@ -19,12 +19,12 @@
     </fragment>
     <fragment
         android:id="@+id/firstFragment"
-        android:name="com.example.firstexample.firstFragment"
+        android:name="com.example.firstexample.FirstFragment"
         android:label="first"
         tools:layout="@layout/fragment_first" />
     <fragment
         android:id="@+id/secondFragment"
-        android:name="com.example.firstexample.secondFragment"
+        android:name="com.example.firstexample.SecondFragment"
         android:label="second"
         tools:layout="@layout/fragment_second" />
 </navigation>

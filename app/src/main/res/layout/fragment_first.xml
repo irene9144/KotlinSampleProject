@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".firstFragment"
+    tools:context=".FirstFragment"
     android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
@@ -17,5 +17,27 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/first_fragment" />
+    <TextView
+        android:id="@+id/number_txtview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_change_number" />
+    <EditText
+        android:id="@+id/number_input_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:layout_marginTop="30dp"
+        />
+    <Button
+        android:id="@+id/plusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewmodel_plus_button" />
+    <Button
+        android:id="@+id/minusBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/viewmodel_minus_button" />
 
 </LinearLayout>

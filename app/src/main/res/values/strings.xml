@@ -4,4 +4,7 @@
     <string name="hello_blank_fragment">Main fragment</string>
     <string name="first_fragment">first Fragment</string>
     <string name="second_fragment">Second Fragment</string>
+    <string name="view_change_number">viewmodel change number</string>
+    <string name="viewmodel_plus_button">Plus</string>
+    <string name="viewmodel_minus_button">Minus</string>
 </resources>
